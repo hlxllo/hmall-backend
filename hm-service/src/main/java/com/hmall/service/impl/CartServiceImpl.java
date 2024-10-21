@@ -3,7 +3,6 @@ package com.hmall.service.impl;
 import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.hmall.common.exception.BadRequestException;
 import com.hmall.common.exception.BizIllegalException;
 import com.hmall.common.utils.BeanUtils;
 import com.hmall.common.utils.CollUtils;
@@ -30,7 +29,7 @@ import java.util.stream.Collectors;
  * 订单详情表 服务实现类
  * </p>
  *
- * @author 虎哥
+ * @author hlxllo
  * @since 2023-05-05
  */
 @Service
