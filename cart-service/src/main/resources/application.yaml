@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: cart-service
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
   profiles:
     active: dev
   datasource:
@@ -39,3 +42,6 @@ knife4j:
         api-rule: package
         api-rule-resources:
           - com.hmall.cart.controller
+feign:
+  okhttp:
+    enabled: true

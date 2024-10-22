@@ -13,6 +13,7 @@ import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Collection;
 import java.util.List;
 
 @Api(tags = "商品管理相关接口")
@@ -34,7 +35,7 @@ public class ItemController {
 
     @ApiOperation("根据id批量查询商品")
     @GetMapping
-    public List<ItemDTO> queryItemByIds(@RequestParam("ids") List<Long> ids){
+    public List<ItemDTO> queryItemByIds(@RequestParam("ids") Collection<Long> ids){
         return itemService.queryItemByIds(ids);
     }
 
