@@ -1,0 +1,21 @@
+metadata:
+- appName: ''
+  dataId: shared-jdbc.yaml
+  desc: jdbc相关共享配置
+  group: DEFAULT_GROUP
+  type: yaml
+- appName: ''
+  dataId: shared-log.yaml
+  desc: 日志共享配置
+  group: DEFAULT_GROUP
+  type: yaml
+- appName: ''
+  dataId: shared-swagger.yaml
+  desc: swagger共享配置
+  group: DEFAULT_GROUP
+  type: yaml
+- appName: ''
+  dataId: cart-service.yaml
+  desc: 购物车服务的默认配置
+  group: DEFAULT_GROUP
+  type: yaml

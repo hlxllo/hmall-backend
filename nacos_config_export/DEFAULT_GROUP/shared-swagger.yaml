@@ -1,0 +1,15 @@
+knife4j:
+  enable: true
+  openapi:
+    title: ${hm.swagger.title:商城接口文档}
+    description: ${hm.swagger.description:商城接口文档}
+    email: ${hm.swagger.email:3337174805@qq.com}
+    concat: ${hm.swagger.concat:hlxllo}
+    url: https://github.com/hlxllo/hmall-backend.git
+    version: v1.0.0
+    group:
+      default:
+        group-name: default
+        api-rule: package
+        api-rule-resources:
+          - ${hm.swagger.package}

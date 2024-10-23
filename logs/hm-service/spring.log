@@ -1,28 +1,25 @@
-03:00:29:371  WARN 35224 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h22m14s335ms948µs900ns).
-07:49:26:424  INFO 35224 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-07:49:26:431  INFO 35224 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-07:49:33:301  INFO 54864 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 11.0.15.1 on LAPTOP-HD9ADU9H with PID 54864 (D:\back_end\JAVA\code\hmall\hm-service\target\classes started by dogofayaka in D:\back_end\JAVA\code\hmall)
-07:49:33:314 DEBUG 54864 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
-07:49:33:314  INFO 54864 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "dev"
-07:49:33:874  INFO 54864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-07:49:33:874  INFO 54864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-07:49:33:905  INFO 54864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-07:49:34:260  INFO 54864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-07:49:34:268  INFO 54864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-07:49:34:269  INFO 54864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-07:49:34:349  INFO 54864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-07:49:34:349  INFO 54864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1014 ms
-07:49:35:903  INFO 54864 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-07:49:36:227  INFO 54864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-07:49:36:227  INFO 54864 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-07:49:36:227  INFO 54864 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-07:49:36:251  INFO 54864 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-07:49:36:350  INFO 54864 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 3.348 seconds (JVM running for 4.151)
-07:49:45:893  INFO 54864 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-07:49:45:893  INFO 54864 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-07:49:45:893  INFO 54864 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-07:49:45:990 ERROR 54864 --- [http-nio-8080-exec-1] c.h.common.advice.CommonExceptionAdvice  : 自定义异常 -> com.hmall.common.exception.UnauthorizedException , 异常原因：token已经过期  
-07:49:45:990 DEBUG 54864 --- [http-nio-8080-exec-1] c.h.common.advice.CommonExceptionAdvice  : 
+18:12:44:039  INFO 66644 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 11.0.15.1 on LAPTOP-HD9ADU9H with PID 66644 (D:\back_end\JAVA\code\hmall\hm-service\target\classes started by dogofayaka in D:\back_end\JAVA\code\hmall)
+18:12:44:045 DEBUG 66644 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+18:12:44:046  INFO 66644 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "dev"
+18:12:44:851  INFO 66644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+18:12:44:854  INFO 66644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:12:44:882  INFO 66644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+18:12:45:470  INFO 66644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+18:12:45:479  INFO 66644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+18:12:45:480  INFO 66644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+18:12:45:596  INFO 66644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+18:12:45:597  INFO 66644 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1511 ms
+18:12:47:703  INFO 66644 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+18:12:48:192  INFO 66644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+18:12:48:194  INFO 66644 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+18:12:48:198  INFO 66644 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+18:12:48:246  INFO 66644 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+18:12:48:542  INFO 66644 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 4.908 seconds (JVM running for 5.941)
+18:17:21:564  INFO 66644 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:17:21:564  INFO 66644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+18:17:21:565  INFO 66644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+18:17:21:663 ERROR 66644 --- [http-nio-8080-exec-1] c.h.common.advice.CommonExceptionAdvice  : 自定义异常 -> com.hmall.common.exception.UnauthorizedException , 异常原因：token已经过期  
+18:17:21:666 DEBUG 66644 --- [http-nio-8080-exec-1] c.h.common.advice.CommonExceptionAdvice  : 
 
 com.hmall.common.exception.UnauthorizedException: token已经过期
 	at com.hmall.utils.JwtTool.parseToken(JwtTool.java:65) ~[classes/:na]
@@ -69,281 +66,16 @@ com.hmall.common.exception.UnauthorizedException: token已经过期
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
 	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
 
-07:49:49:610  INFO 54864 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-07:49:49:843  INFO 54864 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-07:49:49:843 DEBUG 54864 --- [http-nio-8080-exec-2] com.hmall.mapper.UserMapper.selectOne    : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
-07:49:49:858 DEBUG 54864 --- [http-nio-8080-exec-2] com.hmall.mapper.UserMapper.selectOne    : ==> Parameters: Jack(String)
-07:49:49:890 DEBUG 54864 --- [http-nio-8080-exec-2] com.hmall.mapper.UserMapper.selectOne    : <==      Total: 1
-07:49:50:072 DEBUG 54864 --- [http-nio-8080-exec-3] com.hmall.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
-07:49:50:073 DEBUG 54864 --- [http-nio-8080-exec-3] com.hmall.mapper.CartMapper.selectList   : ==> Parameters: 1(Long)
-07:49:50:075 DEBUG 54864 --- [http-nio-8080-exec-3] com.hmall.mapper.CartMapper.selectList   : <==      Total: 0
-07:49:51:525 DEBUG 54864 --- [http-nio-8080-exec-4] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
-07:49:51:525 DEBUG 54864 --- [http-nio-8080-exec-4] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
-07:49:51:534 DEBUG 54864 --- [http-nio-8080-exec-4] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
-07:49:51:544 DEBUG 54864 --- [http-nio-8080-exec-4] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
-07:49:51:544 DEBUG 54864 --- [http-nio-8080-exec-4] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 20(Long)
-07:49:51:554 DEBUG 54864 --- [http-nio-8080-exec-4] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 20
-07:49:53:112 DEBUG 54864 --- [http-nio-8080-exec-6] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
-07:49:53:112 DEBUG 54864 --- [http-nio-8080-exec-6] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
-07:49:53:123 DEBUG 54864 --- [http-nio-8080-exec-6] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
-07:49:53:125 DEBUG 54864 --- [http-nio-8080-exec-6] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
-07:49:53:126 DEBUG 54864 --- [http-nio-8080-exec-6] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 20(Long)
-07:49:53:126 DEBUG 54864 --- [http-nio-8080-exec-6] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 20
-11:48:18:755  WARN 54864 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h43m23s688ms602µs).
-12:00:38:679  INFO 54864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-12:00:38:689  INFO 54864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-12:28:48:514  INFO 4152 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 11.0.15.1 on LAPTOP-HD9ADU9H with PID 4152 (D:\back_end\JAVA\code\hmall\hm-service\target\classes started by dogofayaka in D:\back_end\JAVA\code\hmall)
-12:28:48:517 DEBUG 4152 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
-12:28:48:517  INFO 4152 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "dev"
-12:28:49:077  INFO 4152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-12:28:49:077  INFO 4152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-12:28:49:106  INFO 4152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-12:28:49:502  INFO 4152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-12:28:49:511  INFO 4152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-12:28:49:511  INFO 4152 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-12:28:49:601  INFO 4152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-12:28:49:601  INFO 4152 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1052 ms
-12:28:51:300  INFO 4152 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-12:28:51:636  WARN 4152 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
-12:28:51:662  INFO 4152 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-12:28:51:674  INFO 4152 --- [main] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-12:28:51:695 ERROR 4152 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8080 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
-
-15:56:42:499  INFO 7680 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 11.0.15.1 on LAPTOP-HD9ADU9H with PID 7680 (D:\back_end\JAVA\code\hmall\hm-service\target\classes started by dogofayaka in D:\back_end\JAVA\code\hmall)
-15:56:42:517 DEBUG 7680 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
-15:56:42:517  INFO 7680 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "dev"
-15:56:43:122  INFO 7680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-15:56:43:122  INFO 7680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-15:56:43:139  INFO 7680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
-15:56:43:550  INFO 7680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-15:56:43:566  INFO 7680 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-15:56:43:566  INFO 7680 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-15:56:43:661  INFO 7680 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-15:56:43:661  INFO 7680 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1110 ms
-15:56:45:483  INFO 7680 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-15:56:45:813  INFO 7680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-15:56:45:813  INFO 7680 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-15:56:45:817  INFO 7680 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-15:56:45:835  INFO 7680 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-15:56:45:978  INFO 7680 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 3.831 seconds (JVM running for 4.964)
-15:57:19:479  INFO 7680 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-15:57:19:480  INFO 7680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-15:57:19:480  INFO 7680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-15:57:19:607 ERROR 7680 --- [http-nio-8080-exec-1] c.h.common.advice.CommonExceptionAdvice  : 自定义异常 -> com.hmall.common.exception.UnauthorizedException , 异常原因：token已经过期  
-15:57:19:607 DEBUG 7680 --- [http-nio-8080-exec-1] c.h.common.advice.CommonExceptionAdvice  : 
-
-com.hmall.common.exception.UnauthorizedException: token已经过期
-	at com.hmall.utils.JwtTool.parseToken(JwtTool.java:65) ~[classes/:na]
-	at com.hmall.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:21) ~[classes/:na]
-	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:148) ~[spring-webmvc-5.3.27.jar:5.3.27]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.27.jar:5.3.27]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar:5.3.27]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar:5.3.27]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.27.jar:5.3.27]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[tomcat-embed-core-9.0.75.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar:5.3.27]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.75.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.75.jar:9.0.75]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar:5.3.27]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar:5.3.27]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar:5.3.27]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
-	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
-
-15:57:23:293  INFO 7680 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-15:57:23:626  INFO 7680 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-15:57:23:626 DEBUG 7680 --- [http-nio-8080-exec-2] com.hmall.mapper.UserMapper.selectOne    : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
-15:57:23:657 DEBUG 7680 --- [http-nio-8080-exec-2] com.hmall.mapper.UserMapper.selectOne    : ==> Parameters: Jack(String)
-15:57:23:690 DEBUG 7680 --- [http-nio-8080-exec-2] com.hmall.mapper.UserMapper.selectOne    : <==      Total: 1
-15:57:24:056 DEBUG 7680 --- [http-nio-8080-exec-3] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
-15:57:24:056 DEBUG 7680 --- [http-nio-8080-exec-3] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
-15:57:24:089 DEBUG 7680 --- [http-nio-8080-exec-3] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
-15:57:24:106 DEBUG 7680 --- [http-nio-8080-exec-3] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
-15:57:24:106 DEBUG 7680 --- [http-nio-8080-exec-3] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 20(Long)
-15:57:24:122 DEBUG 7680 --- [http-nio-8080-exec-3] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 20
-15:57:25:651 DEBUG 7680 --- [http-nio-8080-exec-4] com.hmall.mapper.CartMapper.selectCount  : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ? AND item_id = ?)
-15:57:25:651 DEBUG 7680 --- [http-nio-8080-exec-4] com.hmall.mapper.CartMapper.selectCount  : ==> Parameters: 1(Long), 100002624512(Long)
-15:57:25:651 DEBUG 7680 --- [http-nio-8080-exec-4] com.hmall.mapper.CartMapper.selectCount  : <==      Total: 1
-15:57:25:656 DEBUG 7680 --- [http-nio-8080-exec-4] com.hmall.mapper.CartMapper.selectCount  : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ?)
-15:57:25:656 DEBUG 7680 --- [http-nio-8080-exec-4] com.hmall.mapper.CartMapper.selectCount  : ==> Parameters: 1(Long)
-15:57:25:656 DEBUG 7680 --- [http-nio-8080-exec-4] com.hmall.mapper.CartMapper.selectCount  : <==      Total: 1
-15:57:25:660 DEBUG 7680 --- [http-nio-8080-exec-4] com.hmall.mapper.CartMapper.insert       : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ? )
-15:57:25:660 DEBUG 7680 --- [http-nio-8080-exec-4] com.hmall.mapper.CartMapper.insert       : ==> Parameters: 1(Long), 100002624512(Long), 【千玺代言】华为新品 HUAWEI nova 4 极点全面屏手机 2000万超广角三摄 8GB+128GB 蜜语红 全网通双卡双待(String), {"颜色": "红色"}(String), 90600(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/20085/14/1076/149604/5c0f8dd2Ebafd3bfd/0cb34a7826cbe1c3.jpg!q70.jpg.webp(String)
-15:57:25:803 DEBUG 7680 --- [http-nio-8080-exec-4] com.hmall.mapper.CartMapper.insert       : <==    Updates: 1
-15:57:25:882 DEBUG 7680 --- [http-nio-8080-exec-5] com.hmall.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
-15:57:25:882 DEBUG 7680 --- [http-nio-8080-exec-5] com.hmall.mapper.CartMapper.selectList   : ==> Parameters: 1(Long)
-15:57:25:892 DEBUG 7680 --- [http-nio-8080-exec-5] com.hmall.mapper.CartMapper.selectList   : <==      Total: 1
-15:57:25:901 DEBUG 7680 --- [http-nio-8080-exec-5] c.h.mapper.ItemMapper.selectBatchIds     : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
-15:57:25:901 DEBUG 7680 --- [http-nio-8080-exec-5] c.h.mapper.ItemMapper.selectBatchIds     : ==> Parameters: 100002624512(Long)
-15:57:25:901 DEBUG 7680 --- [http-nio-8080-exec-5] c.h.mapper.ItemMapper.selectBatchIds     : <==      Total: 1
-15:57:34:292 DEBUG 7680 --- [http-nio-8080-exec-6] com.hmall.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
-15:57:34:292 DEBUG 7680 --- [http-nio-8080-exec-6] com.hmall.mapper.CartMapper.selectList   : ==> Parameters: 1(Long)
-15:57:34:292 DEBUG 7680 --- [http-nio-8080-exec-6] com.hmall.mapper.CartMapper.selectList   : <==      Total: 1
-15:57:34:292 DEBUG 7680 --- [http-nio-8080-exec-6] c.h.mapper.ItemMapper.selectBatchIds     : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
-15:57:34:292 DEBUG 7680 --- [http-nio-8080-exec-6] c.h.mapper.ItemMapper.selectBatchIds     : ==> Parameters: 100002624512(Long)
-15:57:34:301 DEBUG 7680 --- [http-nio-8080-exec-6] c.h.mapper.ItemMapper.selectBatchIds     : <==      Total: 1
-15:57:35:808 DEBUG 7680 --- [http-nio-8080-exec-8] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
-15:57:35:808 DEBUG 7680 --- [http-nio-8080-exec-8] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
-15:57:35:830 DEBUG 7680 --- [http-nio-8080-exec-8] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
-15:57:35:830 DEBUG 7680 --- [http-nio-8080-exec-8] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
-15:57:35:830 DEBUG 7680 --- [http-nio-8080-exec-8] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 20(Long)
-15:57:35:837 DEBUG 7680 --- [http-nio-8080-exec-8] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 20
-15:57:37:153 DEBUG 7680 --- [http-nio-8080-exec-7] com.hmall.mapper.CartMapper.selectCount  : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ? AND item_id = ?)
-15:57:37:153 DEBUG 7680 --- [http-nio-8080-exec-7] com.hmall.mapper.CartMapper.selectCount  : ==> Parameters: 1(Long), 100001964366(Long)
-15:57:37:153 DEBUG 7680 --- [http-nio-8080-exec-7] com.hmall.mapper.CartMapper.selectCount  : <==      Total: 1
-15:57:37:153 DEBUG 7680 --- [http-nio-8080-exec-7] com.hmall.mapper.CartMapper.selectCount  : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ?)
-15:57:37:153 DEBUG 7680 --- [http-nio-8080-exec-7] com.hmall.mapper.CartMapper.selectCount  : ==> Parameters: 1(Long)
-15:57:37:153 DEBUG 7680 --- [http-nio-8080-exec-7] com.hmall.mapper.CartMapper.selectCount  : <==      Total: 1
-15:57:37:153 DEBUG 7680 --- [http-nio-8080-exec-7] com.hmall.mapper.CartMapper.insert       : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ? )
-15:57:37:153 DEBUG 7680 --- [http-nio-8080-exec-7] com.hmall.mapper.CartMapper.insert       : ==> Parameters: 1(Long), 100001964366(Long), OPPO A7 全面屏拍照手机 4GB+64GB 清新粉 全网通 移动联通电信4G 双卡双待手机(String), {"颜色": "粉色"}(String), 65400(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t25564/327/2615611632/135559/d3c69840/5bebd32eN3bf6f987.jpg!q70.jpg.webp(String)
-15:57:37:264 DEBUG 7680 --- [http-nio-8080-exec-7] com.hmall.mapper.CartMapper.insert       : <==    Updates: 1
-15:57:37:328 DEBUG 7680 --- [http-nio-8080-exec-9] com.hmall.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
-15:57:37:328 DEBUG 7680 --- [http-nio-8080-exec-9] com.hmall.mapper.CartMapper.selectList   : ==> Parameters: 1(Long)
-15:57:37:328 DEBUG 7680 --- [http-nio-8080-exec-9] com.hmall.mapper.CartMapper.selectList   : <==      Total: 2
-15:57:37:328 DEBUG 7680 --- [http-nio-8080-exec-9] c.h.mapper.ItemMapper.selectBatchIds     : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? , ? )
-15:57:37:328 DEBUG 7680 --- [http-nio-8080-exec-9] c.h.mapper.ItemMapper.selectBatchIds     : ==> Parameters: 100002624512(Long), 100001964366(Long)
-15:57:37:344 DEBUG 7680 --- [http-nio-8080-exec-9] c.h.mapper.ItemMapper.selectBatchIds     : <==      Total: 2
-15:57:41:568 DEBUG 7680 --- [http-nio-8080-exec-10] com.hmall.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
-15:57:41:568 DEBUG 7680 --- [http-nio-8080-exec-10] com.hmall.mapper.CartMapper.selectList   : ==> Parameters: 1(Long)
-15:57:41:568 DEBUG 7680 --- [http-nio-8080-exec-10] com.hmall.mapper.CartMapper.selectList   : <==      Total: 2
-15:57:41:568 DEBUG 7680 --- [http-nio-8080-exec-10] c.h.mapper.ItemMapper.selectBatchIds     : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? , ? )
-15:57:41:568 DEBUG 7680 --- [http-nio-8080-exec-10] c.h.mapper.ItemMapper.selectBatchIds     : ==> Parameters: 100002624512(Long), 100001964366(Long)
-15:57:41:568 DEBUG 7680 --- [http-nio-8080-exec-10] c.h.mapper.ItemMapper.selectBatchIds     : <==      Total: 2
-15:57:42:556 DEBUG 7680 --- [http-nio-8080-exec-1] c.h.m.ItemMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
-15:57:42:556 DEBUG 7680 --- [http-nio-8080-exec-1] c.h.m.ItemMapper.selectPage_mpCount      : ==> Parameters: 1(Integer)
-15:57:42:585 DEBUG 7680 --- [http-nio-8080-exec-1] c.h.m.ItemMapper.selectPage_mpCount      : <==      Total: 1
-15:57:42:607 DEBUG 7680 --- [http-nio-8080-exec-1] com.hmall.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
-15:57:42:607 DEBUG 7680 --- [http-nio-8080-exec-1] com.hmall.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 20(Long)
-15:57:42:619 DEBUG 7680 --- [http-nio-8080-exec-1] com.hmall.mapper.ItemMapper.selectPage   : <==      Total: 20
-15:57:43:821 DEBUG 7680 --- [http-nio-8080-exec-2] com.hmall.mapper.CartMapper.selectCount  : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ? AND item_id = ?)
-15:57:43:821 DEBUG 7680 --- [http-nio-8080-exec-2] com.hmall.mapper.CartMapper.selectCount  : ==> Parameters: 1(Long), 100002672274(Long)
-15:57:43:821 DEBUG 7680 --- [http-nio-8080-exec-2] com.hmall.mapper.CartMapper.selectCount  : <==      Total: 1
-15:57:43:821 DEBUG 7680 --- [http-nio-8080-exec-2] com.hmall.mapper.CartMapper.selectCount  : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ?)
-15:57:43:821 DEBUG 7680 --- [http-nio-8080-exec-2] com.hmall.mapper.CartMapper.selectCount  : ==> Parameters: 1(Long)
-15:57:43:821 DEBUG 7680 --- [http-nio-8080-exec-2] com.hmall.mapper.CartMapper.selectCount  : <==      Total: 1
-15:57:43:821 DEBUG 7680 --- [http-nio-8080-exec-2] com.hmall.mapper.CartMapper.insert       : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ? )
-15:57:43:821 DEBUG 7680 --- [http-nio-8080-exec-2] com.hmall.mapper.CartMapper.insert       : ==> Parameters: 1(Long), 100002672274(Long), 三星 Galaxy S8+（SM-G9550）6GB+128GB 谜夜黑 移动联通电信4G手机 双卡双待(String), {"颜色": "红色", "版本": "6GB+128GB"}(String), 55400(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t22954/298/30207467/96223/2f672221/5b233eabN82b4dedc.jpg!q70.jpg.webp(String)
-15:57:43:867 DEBUG 7680 --- [http-nio-8080-exec-2] com.hmall.mapper.CartMapper.insert       : <==    Updates: 1
-15:57:43:936 DEBUG 7680 --- [http-nio-8080-exec-3] com.hmall.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
-15:57:43:936 DEBUG 7680 --- [http-nio-8080-exec-3] com.hmall.mapper.CartMapper.selectList   : ==> Parameters: 1(Long)
-15:57:43:936 DEBUG 7680 --- [http-nio-8080-exec-3] com.hmall.mapper.CartMapper.selectList   : <==      Total: 3
-15:57:43:936 DEBUG 7680 --- [http-nio-8080-exec-3] c.h.mapper.ItemMapper.selectBatchIds     : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? , ? , ? )
-15:57:43:936 DEBUG 7680 --- [http-nio-8080-exec-3] c.h.mapper.ItemMapper.selectBatchIds     : ==> Parameters: 100002624512(Long), 100002672274(Long), 100001964366(Long)
-15:57:43:948 DEBUG 7680 --- [http-nio-8080-exec-3] c.h.mapper.ItemMapper.selectBatchIds     : <==      Total: 3
-16:00:44:109 DEBUG 7680 --- [http-nio-8080-exec-4] com.hmall.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
-16:00:44:110 DEBUG 7680 --- [http-nio-8080-exec-4] com.hmall.mapper.CartMapper.selectList   : ==> Parameters: 1(Long)
-16:00:44:111 DEBUG 7680 --- [http-nio-8080-exec-4] com.hmall.mapper.CartMapper.selectList   : <==      Total: 3
-16:00:44:111 DEBUG 7680 --- [http-nio-8080-exec-4] c.h.mapper.ItemMapper.selectBatchIds     : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? , ? , ? )
-16:00:44:111 DEBUG 7680 --- [http-nio-8080-exec-4] c.h.mapper.ItemMapper.selectBatchIds     : ==> Parameters: 100002624512(Long), 100002672274(Long), 100001964366(Long)
-16:00:44:111 DEBUG 7680 --- [http-nio-8080-exec-4] c.h.mapper.ItemMapper.selectBatchIds     : <==      Total: 3
-16:26:21:783  INFO 7680 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-16:26:21:798  INFO 7680 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-16:26:26:978  INFO 48076 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 11.0.15.1 on LAPTOP-HD9ADU9H with PID 48076 (D:\back_end\JAVA\code\hmall\hm-service\target\classes started by dogofayaka in D:\back_end\JAVA\code\hmall)
-16:26:27:008 DEBUG 48076 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
-16:26:27:008  INFO 48076 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "dev"
-16:26:27:635  INFO 48076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-16:26:27:635  INFO 48076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-16:26:27:674  INFO 48076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
-16:26:28:118  INFO 48076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-16:26:28:127  INFO 48076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-16:26:28:127  INFO 48076 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-16:26:28:231  INFO 48076 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-16:26:28:231  INFO 48076 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1184 ms
-16:26:30:314  INFO 48076 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-16:26:30:639  INFO 48076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-16:26:30:639  INFO 48076 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-16:26:30:639  INFO 48076 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-16:26:30:670  INFO 48076 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-16:26:30:822  INFO 48076 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 4.205 seconds (JVM running for 5.199)
-18:29:52:746  INFO 72160 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 11.0.15.1 on LAPTOP-HD9ADU9H with PID 72160 (D:\back_end\JAVA\code\hmall\hm-service\target\classes started by dogofayaka in D:\back_end\JAVA\code\hmall)
-18:29:52:750 DEBUG 72160 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
-18:29:52:752  INFO 72160 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "dev"
-18:29:53:395  INFO 72160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-18:29:53:395  INFO 72160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-18:29:53:416  INFO 72160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-18:29:53:878  INFO 72160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-18:29:53:887  INFO 72160 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-18:29:53:887  INFO 72160 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-18:29:53:991  INFO 72160 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-18:29:53:991  INFO 72160 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1208 ms
-18:29:56:124  INFO 72160 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-18:29:56:418  INFO 72160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-18:29:56:418  INFO 72160 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-18:29:56:423  INFO 72160 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-18:29:56:449  INFO 72160 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-18:29:56:599  INFO 72160 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 4.19 seconds (JVM running for 5.147)
-18:47:11:416  INFO 74444 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 11.0.15.1 on LAPTOP-HD9ADU9H with PID 74444 (D:\back_end\JAVA\code\hmall\hm-service\target\classes started by dogofayaka in D:\back_end\JAVA\code\hmall)
-18:47:11:445 DEBUG 74444 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
-18:47:11:445  INFO 74444 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "dev"
-18:47:12:309  INFO 74444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-18:47:12:309  INFO 74444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-18:47:12:350  INFO 74444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
-18:47:12:903  INFO 74444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-18:47:12:919  INFO 74444 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-18:47:12:919  INFO 74444 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-18:47:13:061  INFO 74444 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-18:47:13:061  INFO 74444 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1567 ms
-18:47:15:894  INFO 74444 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-18:47:16:322  INFO 74444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-18:47:16:322  INFO 74444 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-18:47:16:322  INFO 74444 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-18:47:16:353  INFO 74444 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-18:47:16:591  INFO 74444 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 5.627 seconds (JVM running for 6.906)
-19:35:05:294  INFO 33340 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 11.0.15.1 on LAPTOP-HD9ADU9H with PID 33340 (D:\back_end\JAVA\code\hmall\hm-service\target\classes started by dogofayaka in D:\back_end\JAVA\code\hmall)
-19:35:05:325 DEBUG 33340 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
-19:35:05:325  INFO 33340 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "dev"
-19:35:06:182  INFO 33340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-19:35:06:182  INFO 33340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-19:35:06:213  INFO 33340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
-19:35:06:784  INFO 33340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-19:35:06:784  INFO 33340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-19:35:06:784  INFO 33340 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-19:35:06:942  INFO 33340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-19:35:06:942  INFO 33340 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1570 ms
-19:35:09:844  INFO 33340 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-19:35:10:274  INFO 33340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-19:35:10:274  INFO 33340 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-19:35:10:274  INFO 33340 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-19:35:10:306  INFO 33340 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-19:35:10:528  INFO 33340 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 5.705 seconds (JVM running for 7.06)
+18:17:24:023  INFO 66644 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+18:17:24:279  INFO 66644 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+18:17:24:286 DEBUG 66644 --- [http-nio-8080-exec-2] com.hmall.mapper.UserMapper.selectOne    : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+18:17:24:306 DEBUG 66644 --- [http-nio-8080-exec-2] com.hmall.mapper.UserMapper.selectOne    : ==> Parameters: Jack(String)
+18:17:24:341 DEBUG 66644 --- [http-nio-8080-exec-2] com.hmall.mapper.UserMapper.selectOne    : <==      Total: 1
+18:17:24:524 DEBUG 66644 --- [http-nio-8080-exec-3] com.hmall.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+18:17:24:524 DEBUG 66644 --- [http-nio-8080-exec-3] com.hmall.mapper.CartMapper.selectList   : ==> Parameters: 1(Long)
+18:17:24:528 DEBUG 66644 --- [http-nio-8080-exec-3] com.hmall.mapper.CartMapper.selectList   : <==      Total: 3
+18:17:24:554 DEBUG 66644 --- [http-nio-8080-exec-3] c.h.mapper.ItemMapper.selectBatchIds     : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? , ? , ? )
+18:17:24:556 DEBUG 66644 --- [http-nio-8080-exec-3] c.h.mapper.ItemMapper.selectBatchIds     : ==> Parameters: 100002624512(Long), 100002672274(Long), 100001964366(Long)
+18:17:24:559 DEBUG 66644 --- [http-nio-8080-exec-3] c.h.mapper.ItemMapper.selectBatchIds     : <==      Total: 3
+18:22:53:921  INFO 66644 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+18:22:53:931  INFO 66644 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

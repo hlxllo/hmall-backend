@@ -20,7 +20,7 @@ public class PageQuery {
     @ApiModelProperty("页码")
     @Min(value = 1, message = "页码不能小于1")
     private Integer pageNo = DEFAULT_PAGE_NUM;
-    @ApiModelProperty("页码")
+    @ApiModelProperty("每页查询数量")
     @Min(value = 1, message = "每页查询数量不能小于1")
     private Integer pageSize = DEFAULT_PAGE_SIZE;
     @ApiModelProperty("是否升序")
