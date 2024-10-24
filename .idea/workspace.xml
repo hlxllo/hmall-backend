@@ -5,46 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdfccc59-e8bf-4056-aae9-b132781b112f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/config/CartProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/utils/UserContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-common/src/main/java/com/hmall/common/config/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-common/src/main/java/com/hmall/common/interceptor/UserInfoInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/java/com/hmall/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/java/com/hmall/gateway/config/AuthProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/java/com/hmall/gateway/config/JwtProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/java/com/hmall/gateway/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/java/com/hmall/gateway/filter/AuthGlobalFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/java/com/hmall/gateway/utils/JwtTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/resources/hmall.jks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/cart-service/spring.log.2024-10-22.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/hm-service/spring.log.2024-10-22.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/item-service/spring.log.2024-10-22.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/pay-service/spring.log.2024-10-22.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/trade-service/spring.log.2024-10-22.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/user-service/spring.log.2024-10-22.0.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/config/RemoteCallConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/config/RemoteCallConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/service/impl/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/service/impl/CartServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/target/classes/com/hmall/cart/config/RemoteCallConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/target/classes/com/hmall/cart/config/RemoteCallConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/target/classes/com/hmall/cart/service/impl/CartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/target/classes/com/hmall/cart/service/impl/CartServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/config/DefaultFeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/config/DefaultFeignConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/config/DefaultFeignConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/config/DefaultFeignConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hm-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/src/main/java/com/hmall/common/domain/PageQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-common/src/main/java/com/hmall/common/domain/PageQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/hm-common/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/hm-common/target/classes/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/domain/PageQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/domain/PageQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/java/com/hmall/gateway/route/DynamicRouteLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/cart-service/spring.log.2024-10-23.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/gateway/spring.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/pay-service/spring.log.2024-10-23.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/trade-service/spring.log.2024-10-23.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/user-service/spring.log.2024-10-23.0.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hm-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/hm-gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-gateway/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/hm-gateway/target/classes/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cart-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/hm-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/hm-service/spring.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/item-service/spring.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/pay-service/spring.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/trade-service/spring.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/user-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,11 +96,11 @@
       <recent name="D:\back_end\JAVA\code\hmall\item-service\src\main\resources\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hmall.item.controller" />
       <recent name="com.hmall.api.utils" />
       <recent name="com.hmall.gateway.utils" />
       <recent name="com.hmall.pay.controller" />
       <recent name="com.hmall.pay.enums" />
-      <recent name="com.hmall.pay.service.impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -338,7 +314,7 @@
       <workItem from="1729411788328" duration="45000" />
       <workItem from="1729411860007" duration="93000" />
       <workItem from="1729411971813" duration="154000" />
-      <workItem from="1729505140131" duration="39176000" />
+      <workItem from="1729505140131" duration="45132000" />
     </task>
     <servers />
   </component>

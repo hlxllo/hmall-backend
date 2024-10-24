@@ -19,3 +19,8 @@ metadata:
   desc: 购物车服务的默认配置
   group: DEFAULT_GROUP
   type: yaml
+- appName: ''
+  dataId: gateway-routes.json
+  desc: 动态路由
+  group: DEFAULT_GROUP
+  type: json
