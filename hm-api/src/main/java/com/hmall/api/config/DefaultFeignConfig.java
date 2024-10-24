@@ -1,12 +1,15 @@
 package com.hmall.api.config;
 
-import com.hmall.api.utils.UserContext;
+import com.hmall.api.client.ItemClient;
+import com.hmall.api.client.fallback.ItemClientFallback;
+import com.hmall.common.utils.UserContext;
 import feign.Logger;
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
+import org.springframework.cloud.openfeign.FallbackFactory;
 import org.springframework.context.annotation.Bean;
 
-// 设置openFeign的日志输出级别
+// 设置openFeign的日志输出级别、保存用户信息和服务降级配置
 public class DefaultFeignConfig {
     @Bean
     public Logger.Level feignLogLevel() {
@@ -28,5 +31,10 @@ public class DefaultFeignConfig {
                 template.header("user-info", userId.toString());
             }
         };
+    }
+
+    @Bean
+    public ItemClientFallback itemClientFallbackFactory(){
+        return new ItemClientFallback();
     }
 }

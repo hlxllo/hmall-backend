@@ -17,6 +17,11 @@
     </properties>
 
     <dependencies>
+        <!--sentinel-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+        </dependency>
         <!--api-->
         <dependency>
             <groupId>com.hlxllo</groupId>
@@ -27,12 +32,6 @@
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-        </dependency>
-        <!--common-->
-        <dependency>
-            <groupId>com.hlxllo</groupId>
-            <artifactId>hm-common</artifactId>
-            <version>1.0.0</version>
         </dependency>
         <!--web-->
         <dependency>

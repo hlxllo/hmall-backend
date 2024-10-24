@@ -5,22 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdfccc59-e8bf-4056-aae9-b132781b112f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/java/com/hmall/gateway/route/DynamicRouteLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/controller/SearchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/cart-service/spring.log.2024-10-23.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/gateway/spring.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/pay-service/spring.log.2024-10-23.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/trade-service/spring.log.2024-10-23.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/user-service/spring.log.2024-10-23.0.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hm-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/hm-gateway/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-gateway/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/hm-gateway/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/fallback/ItemClientFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/ItemClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/ItemClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/config/DefaultFeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/config/DefaultFeignConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/utils/UserContext.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cart-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gateway/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/gateway/spring.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/item-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/pay-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/trade-service/spring.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/user-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pay-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,7 +313,7 @@
       <workItem from="1729411788328" duration="45000" />
       <workItem from="1729411860007" duration="93000" />
       <workItem from="1729411971813" duration="154000" />
-      <workItem from="1729505140131" duration="45132000" />
+      <workItem from="1729505140131" duration="48815000" />
     </task>
     <servers />
   </component>

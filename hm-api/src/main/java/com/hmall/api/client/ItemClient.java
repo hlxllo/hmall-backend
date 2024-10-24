@@ -1,5 +1,6 @@
 package com.hmall.api.client;
 
+import com.hmall.api.client.fallback.ItemClientFallback;
 import com.hmall.api.config.DefaultFeignConfig;
 import com.hmall.api.dto.ItemDTO;
 import com.hmall.api.dto.OrderDetailDTO;
@@ -10,7 +11,9 @@ import java.util.Collection;
 import java.util.List;
 
 // 日志配置对当前FeignClient生效
-@FeignClient(value = "item-service", configuration = DefaultFeignConfig.class)
+@FeignClient(value = "item-service",
+        configuration = DefaultFeignConfig.class,
+        fallbackFactory = ItemClientFallback.class)
 public interface ItemClient {
 
     @GetMapping("/items")
