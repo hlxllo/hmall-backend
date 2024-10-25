@@ -17,6 +17,11 @@
     </properties>
 
     <dependencies>
+        <!--seata-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
+        </dependency>
         <!--api-->
         <dependency>
             <groupId>com.hlxllo</groupId>

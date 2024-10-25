@@ -24,3 +24,8 @@ metadata:
   desc: 动态路由
   group: DEFAULT_GROUP
   type: json
+- appName: ''
+  dataId: shared-seata.yaml
+  desc: 共享seata配置
+  group: DEFAULT_GROUP
+  type: yaml
