@@ -33,7 +33,6 @@ public class ItemServiceImpl extends ServiceImpl<ItemMapper, Item> implements II
             r = executeBatch(items, (sqlSession, entity) -> sqlSession.update(sqlStatement, entity));
         } catch (Exception e) {
             throw new BizIllegalException("更新库存异常！");
-            //return;
         }
         if (!r) {
             throw new BizIllegalException("库存不足！");
